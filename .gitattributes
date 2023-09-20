@@ -1,0 +1,4 @@
+# Désactiver la conversion automatique d'EOL pour ces fichiers
+css/styleOutput.css -text
+tailwind.config.js -text
+ 

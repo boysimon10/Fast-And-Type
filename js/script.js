@@ -1,9 +1,11 @@
-function getRandomInt() {
-    const max = listWords.lenght + 1
+function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
 function getWord(listWords){
-    return listWords[getRandomInt()];
+    const randomIndex = getRandomInt(listWords.length);
+    return listWords[randomIndex];
 }
-let listWords = [""]
+
+const listWords = ["apple","banana","cherry"];
+console.log("Random word: " + getWord(listWords));

@@ -6,3 +6,4 @@ function getRandomInt() {
 function getWord(listWords){
     return listWords[getRandomInt()];
 }
+let listWords = [""]

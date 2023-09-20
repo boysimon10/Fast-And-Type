@@ -630,7 +630,3 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-
-.focus\:outline-red-700:focus {
-  outline-color: #b91c1c;
-}

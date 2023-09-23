@@ -1,6 +1,5 @@
 import * as jeu from './functions.js';
-
-const listWords = ["apple","banana","cherry"];
+import { listWords } from './listwords.js'
 const randomIndex = jeu.getRandomInt(listWords.length);
 const randomWord = listWords[randomIndex];
 
